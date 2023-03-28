@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<config>
+   <db>
+      <hostname>127.0.0.1</hostname> <!-- Paste here your MySQL Database's Hostname -->
+      <username>root</username> <!-- Paste here your MySQL Database's Username -->
+      <password></password> <!-- Paste here your MySQL Database's Password -->
+      <dbname>anncm</dbname> <!-- Paste here your MySQL Database Name -->
+	  <dbtable>anncms</dbtable> <!-- Paste here your Module's MySQL Database's Table Name -->
+	  <dbprefix>br18_</dbprefix> <!-- Paste here your Module MySQL Database's Table Prefix -->
+   </db>
+   <general>
+      <servernick>BrownTurbo</servernick> <!-- Paste here your Community's short name -->
+	  <securitypass>JesusGodMaryem23!</securitypass> <!-- Paste here your Community's Announcements systems's Security Password -->
+	  <errorlogging>E_ALL</errorlogging> <!-- Change this Variable's Value to 'E_ALL' if you wants to enable PHP ERROR/WARNING/NOTICE Logging or to '0' to disable it (enabled by deafult) -->
+	  <timezone>Africa/Cairo</timezone> <!-- Paste here your Current Timezone (Supported timezones: http://php.net/manual/en/timezones.php) -->
+   </general>  
+</config>
